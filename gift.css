@@ -1,0 +1,16 @@
+.view {
+    text-align: center;
+    margin: 0px;
+    font-family: "Courier";
+    background-color: #fff5e4;
+    color: #ff9494;
+    
+  }
+  b{
+    font-size: 50px;
+  }
+  img{
+    height: 320px;
+    width: auto;
+    padding: 10px;
+  }
