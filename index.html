@@ -7,6 +7,14 @@
     <title>Valentine</title>
 </head>
 <body>
+    <script>
+        confirm("Will you be my valentine ?")
+        // Hàm JavaScript được gọi khi nút được nhấp
+        function redirectToPage() {
+            // Chuyển đến một URL mới
+            window.location.href = "love.html";
+        }
+    </script>    
     <div class="view">
 
     <div id="thankyou"><b>Happy valentine's day</b></div>
@@ -14,14 +22,12 @@
     <div id="image"><img src="giphy.gif" alt=""></div>
     
     <div class="center">
-    <a href="love.html"><button class="button-56" role="button">Click me</button></a>
+    <button class="button-56" role="button" onclick="redirectToPage()">Click me</button>
     </div>
         
     </div>
     
     
-    <script >
-        confirm("Will you be my valentine?");
-    </script>
+
 </body>
 </html>
